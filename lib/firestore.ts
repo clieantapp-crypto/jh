@@ -42,3 +42,8 @@ export interface NotificationDocument {
   };
 }
 
+
+export const isFirebaseConfigured = Boolean(
+  firebaseConfig.apiKey &&
+  firebaseConfig.projectId
+);

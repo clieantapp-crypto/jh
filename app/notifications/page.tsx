@@ -70,7 +70,7 @@ import {
   query,
   orderBy,
 } from "firebase/firestore";
-import { db, isFirebaseConfigured } from "@/lib/firebase";
+import { db, isFirebaseConfigured } from "@/lib/firestore";
 
 interface Notification {
   id: string;
